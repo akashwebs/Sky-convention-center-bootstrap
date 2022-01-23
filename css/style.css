@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.package-btn-color {
+    background: #F496D1;
+}
+
+.package-radius {
+    border-radius: 26px;
+    position: relative;
+    top: -25px;
+}
+
+
+/* package list style */
+
+.price-items>ul>.list-group-item {
+    background: none;
+    color: #ffffff;
+}
+
+.hot-package {
+    z-index: 100;
+    position: absolute;
+    top: -50px;
+    right: 25px;
+    background: #FF4E4E;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media (max-width:768px) {
+    .package-radius {
+        top: 0;
+    }
+    .hot-package {
+        top: -25px
+    }
+}
