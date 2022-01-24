@@ -20,11 +20,11 @@
     <!-- start header -->
     <header>
         <!-- start navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top bg-light  navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center " href="#">
                     <h3>
-                        convention center
+                        Sky convention center
                     </h3>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,33 +53,36 @@
         <!-- end navbar -->
         <!-- ----------start carousel------------- -->
 
-        <section class="container-fluid p-0 m-0">
+        <section class="container-fluid m-0 p-0 ">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/Banner-02.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/Banner-03.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/Banner-04.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
+                <div class="carousel-inner  pt-5">
+                    <div class="carousel-item carousel-banner-height  active">
+                        <img src="images/ban-1.png" class="d-block h-100 w-100" style="object-fit: cover;">
+                        <div class="carousel-caption  d-block">
+                            <h5 class="display-4 fw-bold">Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
+                            <button class=" mb-3 btn btn-light px-4 px-2 fw-bolder">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-banner-height  ">
+                        <img src="images/ban-2.png" class="d-block h-100 w-100" style="object-fit: cover;">
+                        <div class="carousel-caption d-block">
+                            <h5 class="display-4 fw-bold">Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <button class=" mb-3 btn btn-light px-4 px-2 fw-bolder">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-banner-height ">
+                        <img src="images/ban-3.png" class="d-block h-100 w-100" style="object-fit: cover;">
+                        <div class="carousel-caption d-md-block">
+                            <h5 class="display-4 fw-bold">Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <button class=" mb-3 btn btn-light px-4 px-2 fw-bolder">Book Now</button>
                         </div>
                     </div>
                 </div>
@@ -391,7 +394,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 ">
-                    <img class="w-100" src="images/people.png" alt="">
+                    <img class="w-100" src="images/faq.jpg" alt="">
 
                 </div>
                 <!-- according -->
@@ -400,8 +403,65 @@
         </section>
         <!-- ----------end ask question section--------- -->
         <!-- --------------contact us seciton-------------- -->
-        <section>
+        <section class="py-4 contact-us">
+            <div class="container  ">
 
+
+                <h2 class="display-6 mb-2 mb-md-2 text-white fw-bolder text-center">Contcat Us</h2>
+                <p class="text-center d-none d-md-block
+                 w-75 text-white mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempora voluptate, est magnam totam iure corrupti! Esse sunt eligendi totam cumque quibusdam. Optio amet voluptate obcaecati dicta repellat doloribus quibusdam.</p>
+                <div class="row row-cols-1 d-flex align-items-center row-cols-md-2 mt-5 mt-md-0 gx-4">
+                    <div class="col">
+                        <div>
+                            <ul class="list-group ps-5">
+                                <li class=" mb-4 border-0 d-flex align-items-center">
+                                    <i class="fas h5 bg-light p-3  text-dark rounded-circle  fa-map-marker-alt"></i>
+                                    <span class="text-white  ms-3 ">
+                                    <h4>Adress</h4>
+                                    <p>house#02, Road#05, nikunja-2, khilkhet, dhaka-1229</p>
+                                </span>
+
+                                </li>
+                                <li class="mb-4 border-0 d-flex align-items-center">
+                                    <i class="fas h5 bg-light p-3  text-dark rounded-circle fa-phone"></i>
+                                    <span class="text-white ms-3 ">
+                                    <h4>Phone</h4>
+                                    <p>+8801854950227</p>
+                                </span>
+
+                                </li>
+                                <li class="mb-4 border-0 d-flex align-items-center">
+                                    <i class="far h5 bg-light p-3  text-dark rounded-circle  fa-envelope"></i>
+                                    <span class="text-white  ms-3 ">
+                                    <h4>Email</h4>
+                                    <p>skyconvention@domain.com</p>
+                                </span>
+
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-light p-5">
+                            <h2>Send Message</h2>
+                            <div class="mb-3 ">
+                                <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Full Name">
+                            </div>
+                            <div class="mb-3 ">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-outline-primary px-4 mb-3">Send</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- --------------end contact us section--------------- -->
