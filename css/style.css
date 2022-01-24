@@ -28,11 +28,37 @@
     position: absolute;
     top: -50px;
     right: 25px;
-    background: #FF4E4E;
+    background: crimson;
     color: #fff;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 1rem;
 }
+
+
+/* -------custom color------------ */
+
+.skycon-color {
+    color: #3C0DA1;
+}
+
+.skycon-secondary-btn {
+    background: #3C0DA1;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.skycon-secondary-btn:hover {
+    color: #fff;
+    background: darkblue;
+}
+
+.skycon-package-bg {
+    background: #3C0DA1;
+}
+
+
+/* ----------custom color----------------- */
 
 
 /* contact us */
